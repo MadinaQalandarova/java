@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #6c63ff 0%, #4a47a3 100%);
+}
+
+.login-container {
+  text-align: center;
+}
+
+.main-title {
+  color: #000;
+  font-size: 42px;
+  font-weight: 800;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  border-radius: 30px;
+  width: 450px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.input-group {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 15px;
+  border-radius: 12px;
+  border: none;
+  background: rgba(255, 255, 255, 0.3);
+  color: #fff;
+  font-size: 16px;
+  outline: none;
+}
+
+input[type="password"] {
+  background: #fff !important;
+  color: #333 !important;
+}
+
+.input-group input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+}
+
+.forgot-link {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.btn-login {
+  background: linear-gradient(90deg, #3498db, #00d2ff);
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 210, 255, 0.3);
+}
+
+.btn-back {
+  background: transparent;
+  color: white;
+  border: 2px solid #fff;
+  padding: 12px;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-back:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
