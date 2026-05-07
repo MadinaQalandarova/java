@@ -536,18 +536,18 @@
 //     document.body.innerHTML += `<h1>${user.name}</h1><p>${user.email}</p>`;
 //   });
 
-fetch("https://jsonplaceholder.typicode.com/posts/1")
-  .then(function (response) {
-    return response.json();
-  })
-  .then(function (data) {
-    const div = document.getElementById("post");
-    div.innerHTML = `
-        <h2>${data.title}</h2>
-        <p>${data.body}</p>
-      `;
-  })
-  .catch(function (error) {
-    const div = document.getElementById("post");
-    div.innerHTML = "<p>Xatolik yuz berdi. Internetni tekshir.</p>";
-  });
+// fetch("https://jsonplaceholder.typicode.com/posts/1")
+//   .then(function (response) {
+//     return response.json();
+//   })
+//   .then(function (data) {
+//     const div = document.getElementById("post");
+//     div.innerHTML = `
+//         <h2>${data.title}</h2>
+//         <p>${data.body}</p>
+//       `;
+//   })
+//   .catch(function (error) {
+//     const div = document.getElementById("post");
+//     div.innerHTML = "<p>Xatolik yuz berdi. Internetni tekshir.</p>";
+//   });

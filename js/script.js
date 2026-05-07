@@ -61,14 +61,14 @@
 // }
 // createPost();
 
-async function getPosts() {
-  try {
-    let response = await axios.get(
-      "https://jsonplaceholder.typicode.com/todos?_limit=10",
-    );
-    console.log(response.data);
-  } catch (error) {
-    console.log(error);
-  }
-}
-getPosts();
+// async function getPosts() {
+//   try {
+//     let response = await axios.get(
+//       "https://jsonplaceholder.typicode.com/todos?_limit=10",
+//     );
+//     console.log(response.data);
+//   } catch (error) {
+//     console.log(error);
+//   }
+// }
+// getPosts();
